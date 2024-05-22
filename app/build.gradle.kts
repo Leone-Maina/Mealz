@@ -60,6 +60,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.retrofit)
+    implementation(libs.coil.compose)
     implementation(libs.retrofit.converter.gson)
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.compose.preview.renderer)
