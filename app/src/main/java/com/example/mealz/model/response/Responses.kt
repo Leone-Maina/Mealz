@@ -2,12 +2,12 @@ package com.example.mealz.model.response
 
 import com.google.gson.annotations.SerializedName
 
-data class MealsCategoriesResponse(val categories: List<MealsResponse>)
+data class MealsCategoriesResponse(val categories: List<MealResponse>)
 
 //@serializedName("idCategory") -> the name of the field from the JSON file we are calling
 //private val id: String, -> the name of the field in the class to be mapped to the JSON file names
 
-data class MealsResponse(
+data class MealResponse(
     @SerializedName("idCategory") val id: String,
     @SerializedName("strCategory") val name: String,
     @SerializedName("strCategoryDescription") val description: String,
