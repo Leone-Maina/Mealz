@@ -82,8 +82,3 @@ fun MealDetailsScreen(meal: MealResponse?) {
         }
     }
 }
-
-enum class MealProfilePictureState(val color: Color, val size: Dp, val borderWidth: Dp) {
-    Normal(Color.Magenta, 120.dp, 8.dp),
-    Expanded(Color.Green, 200.dp, 24.dp)
-}
